@@ -1,7 +1,8 @@
 # start-read
 
 [![npm](https://img.shields.io/npm/v/start-read.svg?style=flat-square)](https://www.npmjs.com/package/start-read)
-[![travis](http://img.shields.io/travis/start-runner/read.svg?style=flat-square)](https://travis-ci.org/start-runner/read)
+[![linux build](https://img.shields.io/travis/start-runner/read.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/read)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/read.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/read)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/read.svg?style=flat-square)](https://codecov.io/github/start-runner/read)
 [![deps](https://img.shields.io/gemnasium/start-runner/read.svg?style=flat-square)](https://gemnasium.com/start-runner/read)
 [![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
