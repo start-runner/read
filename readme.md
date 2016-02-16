@@ -37,4 +37,4 @@ export function build() {
 }
 ```
 
-Task is rely on array of files and provides `[{ path, data, map }]` output, see [documentation](https://github.com/start-runner/start#readme) for details.
+This task relies on array of files and provides `[{ path, data, map }]` output, see [documentation](https://github.com/start-runner/start#readme) for details.
