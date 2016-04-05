@@ -39,3 +39,9 @@ export function build() {
 ```
 
 This task relies on array of files and provides `[{ path, data, map }]` output, see [documentation](https://github.com/start-runner/start#readme) for details.
+
+## Arguments
+
+`read(encoding)`
+
+* `encoding` – `fs.readFile` encoding option, `utf-8` by default
