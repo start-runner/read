@@ -10,8 +10,10 @@ Read task for [Start](https://github.com/start-runner/start).
 
 ## Install
 
-```
-npm i -S start-read
+```sh
+npm install --save-dev start-read
+# or
+yarn add --dev start-read
 ```
 
 ## Usage
@@ -25,16 +27,14 @@ import read from 'start-read';
 import babel from 'start-babel';
 import write from 'start-write';
 
-export function build() {
-    return start(reporter())(
-        files('build/'),
-        clean(),
-        files('lib/**/*.js'),
-        read(),
-        babel(),
-        write('build/')
-    );
-}
+export const build = () => start(reporter())(
+  files('build/'),
+  clean(),
+  files('lib/**/*.js'),
+  read(),
+  babel(),
+  write('build/')
+);
 ```
 
 This task relies on array of files and provides `[{ path, data, map }]` output, see [documentation](https://github.com/start-runner/start#readme) for details.
