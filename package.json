@@ -15,7 +15,7 @@
   "main": "build/index.js",
   "dependencies": {
     "graceful-fs": "^4.1.5",
-    "pify": "^2.3.0"
+    "makethen": "^0.1.0"
   },
   "devDependencies": {
     "babel-preset-start": "^0.1.0",
